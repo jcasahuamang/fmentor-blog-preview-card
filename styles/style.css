@@ -1,0 +1,96 @@
+body{
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    flex-direction: column;
+}
+
+.card-container{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 25px;
+    max-width: 300px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 7px 7px 3px hsl(0, 0%, 7%);
+}
+
+.card-image img{
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card-button p{
+    font-weight: bold;
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    margin-top: 8px;
+    padding: 5px;
+    max-width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: clamclamp(5px, 5vw, 18px);
+}
+
+.card-date{
+    margin-bottom: 15px;
+    font-size: clamclamp(5px, 5vw, 17px);
+}
+.card-title{
+    color: hsl(0, 0%, 7%);
+    font-weight: 700;
+    font-size: clamp(5px, 5vw, 20px);
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.card-title:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.card-subtitle{
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: clamp(5px, 5vw, 17px);
+    padding-bottom: 15px;
+
+}
+
+.card-author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.card-author-picture img{
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.card-auhtor-name{
+    max-height: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(5px, 5vw, 14px);
+    font-weight: bold;
+}
+
+.attribution{
+    margin: 25px;
+    font-size: clamp(5px, 5vw, 14px);
+    justify-content: center;
+    align-items: center;
+}
