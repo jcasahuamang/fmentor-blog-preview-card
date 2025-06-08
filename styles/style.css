@@ -36,12 +36,12 @@ body{
     max-width: 80px;
     border-radius: 5px;
     text-align: center;
-    font-size: clamclamp(5px, 5vw, 18px);
+    font-size: clamp(5px, 5vw, 18px);
 }
 
 .card-date{
     margin-bottom: 15px;
-    font-size: clamclamp(5px, 5vw, 17px);
+    font-size: clamp(5px, 5vw, 17px);
 }
 .card-title{
     color: hsl(0, 0%, 7%);
